@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "微软雅黑";
+}
+body {
+    min-height: calc(100vh - 0.62rem);
+    background-color: lightgrey;
+}
+.welcome {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+    font-style: italic;
+    font-size: 3rem;
+    margin-top: 3rem;
+    text-align: center;
+    font-weight: 900;
+    color: rgb(20, 19, 68);
+}
+.container {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+img {
+    height: 20rem;
+    width: 20rem;
+}
+.login-part {
+    background-color: #fff;
+    padding: 0.5rem;
+    width: 25rem;
+    height: 15rem;
+    border-radius: 0.5rem;
+    box-shadow: 0.3rem 0.3rem 0.3rem #999;
+    padding: 2rem 2rem;
+}
+.some-tips {
+    font-size: 1rem;
+    color: #ccc;
+}
+.input-hit{
+    margin-top: 0.3rem;
+    font-size: 0.5rem
+}
+.input-content{
+    margin-bottom: 1rem;
+    height: 1.5rem;
+    width:70%;
+    border: 1px solid lightgrey;
+
+}
+
+.btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.but-buttom{
+    width: 2rem;
+    height: 1.5rem;
+    border: 1px solid lightgrey;
+    border-radius: 0.2rem;
+}

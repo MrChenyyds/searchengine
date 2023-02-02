@@ -1,0 +1,111 @@
+/*.head {*/
+/*    position: fixed;*/
+/*    width: 100%;*/
+/*    right: 0;*/
+/*    top: 0;*/
+/*    z-index: 999;//一直将导航栏置于最顶层*/
+/*background: white; //设置导航栏背景颜色*/
+/*display:flex;*/
+/*    box-shadow: 0 1px 0 0 lightgrey;*/
+/*}*/
+/*.logol{*/
+/*    width:6%;*/
+/*    margin-left: 1%;*/
+/*}*/
+/*.master {*/
+/*    font-size: 2.4rem;*/
+/*    font-style: italic;*/
+/*    font-weight: 900;*/
+/*}*/
+/*.slug {*/
+/*    position: relative;*/
+/*}*/
+/*.beta{*/
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    right: 0.01rem;*/
+/*    background-color: rgb(255, 102, 14);*/
+/*    border-radius: 0.3rem;*/
+/*    font-size: 0.3rem;*/
+/*    padding: 0 0.05rem 0 0.05rem;*/
+/*    font-weight: 900;*/
+/*}*/
+/*.search{*/
+/*    width: 70%;*/
+/*    height:40px;*/
+/*    margin-top: auto;*/
+/*    margin-bottom: auto;*/
+/*    margin-left:2%;*/
+/*    display:flex;*/
+/*    float:left;*/
+/*}*/
+/*.search_content{*/
+/*    width:60%;*/
+/*    float: left;*/
+/*    margin-left: 0;*/
+/*}*/
+
+/*.search_submit{*/
+/*    width:10%;*/
+/*    color:white;*/
+/*    background: dodgerblue;*/
+/*    border: none;*/
+/*    margin-right:0;*/
+/*}*/
+/*.block1{*/
+/*    width: 600px;*/
+/*    height:200px;*/
+/*    margin-left: 15%;*/
+/*    margin-top: 70px;*/
+/*    background-color: white; //设置导航栏背景颜色*/
+/*display:flex;*/
+/*    box-shadow: 0 1px 0 0 lightgrey;*/
+/*    white-space: nowrap;*/
+/*}*/
+/*.block{*/
+/*    width: 600px;*/
+/*    height:200px;*/
+/*    margin-left: 15%;*/
+/*    margin-top: 10px;*/
+/*    background-color: white; //设置导航栏背景颜色*/
+/*display:flex;*/
+/*    box-shadow: 0 1px 0 0 lightgrey;*/
+/*    white-space: nowrap;*/
+
+/*}*/
+/*.page{*/
+/*    width: 600px;*/
+/*    height:150px;*/
+/*    margin-left: 15%;*/
+/*    margin-top: 10px;*/
+/*    background-color: wheat; //设置导航栏背景颜色*/
+/*display:flex;*/
+/*    box-shadow: 0 1px 0 0 lightgrey;*/
+/*    white-space: nowrap;*/
+/*}*/
+/*.line-limit-length {*/
+/*    margin-left: 5%;*/
+/*    font-size: 14px;*/
+/*    max-width: 500px;*/
+/*    line-height: 20px;*/
+/*    overflow: hidden;*/
+/*    text-overflow: ellipsis;*/
+/*    white-space: normal;*/
+/*    display:-webkit-box;*/
+/*    -webkit-box-orient:vertical;*/
+/*    -webkit-line-clamp:3;*/
+
+/*}*/
+
+
+.detail-section {
+    margin-left: 5rem;
+    margin-right: 25rem;
+    width: auto;
+    margin-top: 2rem;
+}
+
+.hr-line {
+    width: 60%;
+    margin-left: 5rem;
+}

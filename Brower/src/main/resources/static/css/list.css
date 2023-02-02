@@ -1,0 +1,36 @@
+.list {
+    min-height: 7rem;
+}
+.hit-list {
+    margin-left: 1.5rem;
+    text-align: left;
+    width: 8rem;
+}
+.hit-item {
+    border-radius: 0.1rem;
+    margin-top: 0.1rem;
+    padding: 0.1rem 0.1rem 0.2rem 0.1rem;
+}
+.title {
+    font-size: 0.2rem;
+    font-weight: 900;
+}
+.content {
+    color: #666;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+}
+
+.highlight {
+    color: rgb(255, 13, 13);
+    font-weight: 400;
+}
+
+.active {
+    box-shadow: 0.05rem 0.05rem 0.1rem #999;
+    background-color: #eee;
+    transition: all 0.8s;
+}

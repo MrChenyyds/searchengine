@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Results</title>
+    <link href="/static/css/searchresult.css" type="text/css" rel="stylesheet"></link>
+    <!--    iframeResizer.min.js-->
+    <script src="/static/js/iframeResizer.min.js" type="text/javascript"></script>
+    <script type="text/javascript" th:src="@{/webjars/jquery/3.5.1/jquery.min.js}"></script>
+    <script type=“text/javascript”>
+    iFrameResize({
+    log : true, // Enable console logging
+    enablePublicMethods : true,
+    });
+
+    </script>
+</head>
+<body style="background-color: #ccc;margin-left: 0;margin-top: 0;margin-right: 0;">
+        <!--        <div style="width: 100%;background-color: #111111">-->
+        <!--            <iframe src="detailnav.html" scrolling="no" frameborder="0" fram onresize="onresize" width="100%" height="55rem"></iframe>-->
+        <!--        </div>-->
+
+        <iframe src="detailnav.html" scrolling="no" frameborder="0" framonresize="onresize" width="100%" height="55rem"></iframe>
+        <!--<iframe src="detailnav.html" scrolling="no"  width="100%"></iframe>-->
+        <!--<iframe src="home.html" scrolling="no"  width="100%"></iframe>-->
+        <div style="width: 100%;margin-left:7rem;">
+            <a th:value="找到约${size}个结果(用时${time}秒)">找到约{{SearchResult.totalNums}}个结果(用时{{SearchResult.searchCostTime}}秒)</a>
+        </div>
+
+        <div  th:each="article,articleStat:${ArticleList}">
+            <div  class="detail-section">
+                <a href="article.url" th:value="article.title">title</a>
+                <p th:value="article.keywords">fqcwdcqwcqeqccsdcdsanclsdjanavndsncsdlvnsdlvndslvndslkvnkdslmdsl
+                    dvdsvjkdssnkjvneiovnekclmdkvndcd借我点长冻疮顿涅茨克锂电池麦冬草秘闻陈经理c
+                    跟我扯完了超级文昌了我的口吻欧文欧尼我了我从来无课程名称可能迟到两次都完成了会计处
+                    那我记错了乌克兰成为除了我从来无课程名称可能迟到两次都完成了我看错了会计处理会计处
+                    锂电池接口文档处理的完成列火车的农村的垃圾车到了成都会计处理会计处理会计处理会计处理
+                    dnckdwjcndwcneocmecdklcddccdcdwmc</p>
+
+            </div>
+            <div th:if="${articleStat.last} eq 'false'">
+                <hr class="hr-line"/>
+            </div>
+        </div>
+        <hr />
+        <iframe src="pageindex.html" scrolling="no" frameborder="0" framonresize="onresize" width="100%" height="80rem"></iframe>
+
+
+
+<!--        <div class="detail-section">-->
+<!--            <a href="{{SearchResult.}}">title</a>-->
+<!--            <p>fqcwdcqwcqeqccsdcdsanclsdjanavndsncsdlvnsdlvndslvndslkvnkdslmdsl-->
+<!--            dvdsvjkdssnkjvneiovnekclmdkvndcd借我点长冻疮顿涅茨克锂电池麦冬草秘闻陈经理c-->
+<!--            跟我扯完了超级文昌了我的口吻欧文欧尼我了我从来无课程名称可能迟到两次都完成了会计处-->
+<!--            那我记错了乌克兰成为除了我从来无课程名称可能迟到两次都完成了我看错了会计处理会计处-->
+<!--            锂电池接口文档处理的完成列火车的农村的垃圾车到了成都会计处理会计处理会计处理会计处理-->
+<!--            dnckdwjcndwcneocmecdklcddccdcdwmc</p>-->
+<!--        </div>-->
+<!--        <hr class="hr-line"/>-->
+<!--        <div class="detail-section">-->
+<!--            <a href="http://">title</a>-->
+<!--            <p>fqcwdcqwcqeqccsdcdsanclsdjanavndsncsdlvnsdlvndslvndslkvnkdslmdsl-->
+<!--                dvdsvjkdssnkjvneiovnekclmdkvndcd借我点长冻疮顿涅茨克锂电池麦冬草秘闻陈经理c-->
+<!--                跟我扯完了超级文昌了我的口吻欧文欧尼我了我从来无课程名称可能迟到两次都完成了会计处-->
+<!--                那我记错了乌克兰成为除了我从来无课程名称可能迟到两次都完成了我看错了会计处理会计处-->
+<!--                锂电池接口文档处理的完成列火车的农村的垃圾车到了成都会计处理会计处理会计处理会计处理-->
+<!--                dnckdwjcndwcneocmecdklcddccdcdwmc</p>-->
+<!--        </div>-->
+<!--        <hr />-->
+<!--        <iframe src="pageindex.html" scrolling="no" frameborder="0" framonresize="onresize" width="100%" height="80rem"></iframe>-->
+
+</body>
+
+</html>

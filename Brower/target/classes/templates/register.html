@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+    <link href="login.css" rel="stylesheet" type="text/css">
+    <script  src="register.js" type="text/javascript"></script>
+    <!--	引入jQuery-->
+    <script type="text/javascript" th:src="@{/webjars/jquery/3.5.1/jquery.min.js}"></script>
+</head>
+<body>
+<div>
+    <div class="welcome">欢迎回到 B201这个大家庭~</div>
+    <div class="container">
+        <div>
+            <img src="register.png" alt="" />
+        </div>
+        <div class="login-part" style="height: 20rem">
+            <div class="some-tips">在这里注册您的账号</div>
+            <form>
+                <p class="input-hit">* 用户名:  &nbsp&nbsp&nbsp&nbsp&nbsp
+                    <input  class="input-content" type="text" id="userName">
+                </p>
+                <p class="input-hit">* 您的邮箱：
+                    <input class="input-content" type="email" id="userEmail">
+                </p>
+                <p class="input-hit">* 您的密码：
+                    <input class="input-content" type="password" id="userPassword">
+                </p>
+                <p class="input-hit">* 重复密码：
+                    <input  class="input-content" type="password" id="userPasswordAgain">
+                </p>
+                <div style="display: flex">
+                    <p class="input-hit">* 验证码：&nbsp&nbsp&nbsp&nbsp
+                        <input  class="input-content" type="text" id="code" style="width: 50%">
+                    </p>
+                    <a id="getcode"  href="javascript:void(0);return false;" >获取验证码</a>
+                </div>
+
+                <div class="btn">
+                    <div>
+                        <input class="but-buttom" style="background-color: cornflowerblue" type="button"  value="确认" id="submit">
+                    </div>
+                    <div>
+                        <input class="but-buttom" type="reset" value="取消" id="cancel">
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

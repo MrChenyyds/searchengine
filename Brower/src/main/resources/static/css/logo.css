@@ -1,0 +1,32 @@
+.logo {
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    display: flex;
+}
+.container {
+    margin: auto;
+    display: flex;
+}
+img {
+    height: 4.5rem;
+    width: 4.5rem;
+}
+
+.master {
+    font-size: 2.4rem;
+    font-style: italic;
+    font-weight: 900;
+}
+.slug {
+    position: relative;
+}
+.beta{
+    position: absolute;
+    top: 0;
+    right: 0.01rem;
+    background-color: rgb(255, 102, 14);
+    border-radius: 0.3rem;
+    font-size: 0.3rem;
+    padding: 0 0.05rem 0 0.05rem;
+    font-weight: 900;
+}
