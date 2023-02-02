@@ -1,0 +1,6 @@
+15:06:22.613 [main] INFO  org.brower.BrowerStart - Starting BrowerStart using Java 17.0.5 with PID 70384 (D:\SearchEngine\Brower\target\classes started by 15601 in D:\SearchEngine)
+15:06:22.622 [main] INFO  org.brower.BrowerStart - No active profile set, falling back to 1 default profile: "default"
+15:08:43.006 [main] INFO  org.brower.BrowerStart - Starting BrowerStart using Java 17.0.5 with PID 64532 (D:\SearchEngine\Brower\target\classes started by 15601 in D:\SearchEngine)
+15:08:43.012 [main] INFO  org.brower.BrowerStart - No active profile set, falling back to 1 default profile: "default"
+15:13:58.671 [main] INFO  org.brower.BrowerStart - Starting BrowerStart using Java 17.0.5 with PID 68228 (D:\SearchEngine\Brower\target\classes started by 15601 in D:\SearchEngine)
+15:13:58.691 [main] INFO  org.brower.BrowerStart - No active profile set, falling back to 1 default profile: "default"
